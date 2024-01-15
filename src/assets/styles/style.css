@@ -1,0 +1,112 @@
+.App{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    flex-direction: column;
+    
+}
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.TitleSection{
+    background-color: #FB511F;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.TitleSection input{
+    width: 200px;
+    height: 50px;
+    border-radius: 100px;
+    border: 2px solid #8d2404;
+    font-size: 18px;
+    padding-left: 10px;
+}
+.TitleSection input:focus{
+    outline: none;
+}
+.TitleSection button{
+    width: 100px;
+    height: 40px;
+    background-color: #dd3806;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid #dd3806;
+    font-size: 18px;
+    padding-left: 10px; 
+    margin-top: 5px;  
+    margin-bottom: 5px;
+}
+
+.TitleSection button:hover{
+    cursor: pointer;
+    background-color: #e55124;
+
+}
+
+.displaydata{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   transition: 0.3s;
+   width: 40%;
+   border-radius: 5px;
+   margin: 0 auto;
+}
+
+.displaydata:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+img {
+    height: 300px;
+    width: 200px;
+    border-radius: 5px 5px 0 0;
+  }
+  
+.container {
+    padding: 2px 16px;
+  }
+
+button{
+    width: 200px;
+    height: 100px;
+    background-color: #7f412f;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    padding-left: 10px; 
+    margin-top: 5px;  
+    margin-bottom: 5px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #e55124;
+
+}
+
+ul.a {
+    list-style-type: circle;
+  }
+
+.list{
+    background-color: #8d2404;
+    color: #f7f5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
+    margin: 0 auto;
+    
+}
